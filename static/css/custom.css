@@ -1,10 +1,4 @@
 
-.article-meta, .menu a {
-  text-decoration: none;
-  background: #eee;
-  padding: 5px;
-  border-radius: 5px;
-}
 .avatar {
     border-radius: 50%;
     float: right;
