@@ -26,11 +26,11 @@ title = 'Timeline'
 
 ### 02/14
 
-1. 完成了文章 [Mermaid：利用 YAML 轻松配置流程图样式](http://localhost:1313/posts/mermaid-yaml-frontmatter-flowchart-style-configuration/)，询问 AI 不足之处，更改了多级标题的结构与名称
+1. 完成了文章 [Mermaid：利用 YAML 轻松配置流程图样式](http://yijin.ink/posts/mermaid-yaml-frontmatter-flowchart-style-configuration/)，询问 AI 不足之处，更改了多级标题的结构与名称
 
 ### 02/13
 
-- 完善文章 [Mermaid：利用 YAML 轻松配置流程图样式](http://localhost:1313/posts/mermaid-yaml-frontmatter-flowchart-style-configuration/)，了解 Markdown 中西文排版要求
+- 完善文章 [Mermaid：利用 YAML 轻松配置流程图样式](http://yijin.ink/posts/mermaid-yaml-frontmatter-flowchart-style-configuration/)，了解 Markdown 中西文排版要求
 
 ### 01/31 - 02/13
 
@@ -38,4 +38,4 @@ title = 'Timeline'
 
 ### 01/31
 
-- 2026 年 1 月 31 日晚，应用益辉兄的 [hugo-xmin](https://github.com/yihui/hugo-xmin) 主题重新开启 Hogo，写下饱含真情的契机，详见[我的第一篇 HUGO 文章](http://localhost:1313/posts/my-first-post/)
+- 2026 年 1 月 31 日晚，应用益辉兄的 [hugo-xmin](https://github.com/yihui/hugo-xmin) 主题重新开启 Hogo，写下饱含真情的契机，详见[我的第一篇 HUGO 文章](http://yijin.ink/posts/my-first-post/)

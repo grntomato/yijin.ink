@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yijin.ink/'
 languageCode = 'zh-cn'
 title = 'Yijin Wang'
 theme = 'hugo-xmin'
@@ -9,7 +9,7 @@ post = '/post/:year/:month/:day/:slug/'
 [params]
 despcription = ""
 author = "Yijin Wang"
-footer = "&copy; [Yijin Wang](https://) {Year} | [Github](https://github.com/GrnTomato) | Happy New Year"
+footer = "&copy; [Yijin Wang](https://yijin.ink) {Year} | [Github](https://github.com/GrnTomato) | Happy New Year"
 
 [menu]
 
