@@ -1,6 +1,6 @@
 +++
 date = '2026-02-15T12:22:28+08:00'
-draft = true
+draft = false
 title = 'Mermaid：利用 YAML 轻松配置流程图样式'
 author = "Yijin Wang"
 tags = ['Mermaid', 'Markdown', '图表', '流程图','YAML', '技术写作']

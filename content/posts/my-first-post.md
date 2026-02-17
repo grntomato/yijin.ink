@@ -1,6 +1,6 @@
 +++
 date = '2026-01-31T22:03:31+08:00'
-draft = true
+draft = false
 title = '我的第一篇 HUGO 文章'
 author = 'Yijin Wang'
 categories = ['随笔集']
