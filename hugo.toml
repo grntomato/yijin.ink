@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = 'Yijin Wang'
+theme = 'hugo-xmin'
+
+[permalinks]
+post = '/post/:year/:month/:day/:slug/'
+
+[params]
+despcription = ""
+author = "Yijin Wang"
+footer = "&copy; [Yijin Wang](https://) {Year} | [Github](https://github.com/GrnTomato) | Happy New Year"
+
+[menu]
+
+[[menu.main]]
+name = "主页"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "关于"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "类别"
+url = "categories/"
+weight = 3
+
+[[menu.main]]
+name = "标签"
+url = "tags/"
+weight = 4
+
+[[menu.main]]
+name = "时光留痕"
+url = "timeline/"
+weight = 6
+
+[[menu.main]]
+name = "订阅"
+url = "index.xml"
+weight = 5
+
+
+

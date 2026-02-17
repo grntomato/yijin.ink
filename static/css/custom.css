@@ -1,0 +1,31 @@
+
+.article-meta, .menu a {
+  text-decoration: none;
+  background: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+.avatar {
+    border-radius: 50%;
+    float: right;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+code {
+  background: #f0f0f0;/* 将背景色改为更深的颜色，你可以根据需要调整，例如 #e0e0e0 */
+  border-radius: 4px; /* 增加圆角，值越大圆角越明显 */
+  padding: 0.2em 0.4em; /* 可选：增加内边距，让行内代码更美观 */
+}
+ /* .clear-float {
+    clear: both; 
+} */
+
+/* 确保容器可见 */
+/* .avatar-container {
+    border: 2px dashed blue;
+    background: rgba(0,0,255,0.1);
+    padding: 10px;
+    display: block !important;
+} */

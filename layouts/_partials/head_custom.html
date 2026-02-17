@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" >
+
+<!-- 引入 Mermaid.js 库与初始化 -->
+<script type="module">
+  // 1. 从 CDN 动态导入 Mermaid 库
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  // 2. 初始化 Mermaid 配置
+  mermaid.initialize({
+    startOnLoad: true, // 页面加载完成后自动寻找并渲染所有 class="mermaid" 的元素
+    theme: 'default', // 设置全站默认主题，您文章内的 Frontmatter 配置会覆盖此设置
+    securityLevel: 'loose', // 允许更自由的交互（如图表内点击链接）。对于您可控的内容，此设置是安全的。
+    // 您可以根据需要在此添加其他全局配置
+  });
+</script>
