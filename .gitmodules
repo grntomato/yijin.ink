@@ -1,6 +1,3 @@
 [submodule "themes/hugo-xmin"]
 	path = themes/hugo-xmin
-	url = https://github.com/grntomato/hugo-yijin.git
-	branch = main
-
-
+	url = https://github.com/grntomato/hugo-xmin.git
