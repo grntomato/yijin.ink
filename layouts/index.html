@@ -1,16 +1,21 @@
 {{ partial "header.html" . }}
 
 {{ if .IsHome}}
-<div class="avatar-container">
-    <img src="{{ "/img/me3.jpeg" | relURL }}" alt="我的头像" class="avatar">
+<!-- <div class="avatar-container">
+    <img src="{{ "/img/me3.jpeg" | relURL }}" alt="it's me" class="avatar">
+</div> -->
+
+<div class="welcome-message">
+Where thoughts flow and moments stay.
 </div>
+
 {{ end }}
 
 {{ .Content}}
 
 <div class="clear-float"></div>
 
-<h2>Recently</h2>
+<h2>Recent Posts</h2>
 <ul>
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}

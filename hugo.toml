@@ -1,6 +1,7 @@
 baseURL = 'https://yijin.ink/'
 languageCode = 'zh-cn'
-title = 'Yijin Wang'
+title = "Yijin"
+
 theme = 'hugo-xmin'
 
 [permalinks]
@@ -43,5 +44,16 @@ name = "订阅"
 url = "index.xml"
 weight = 5
 
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
 
