@@ -1,12 +1,17 @@
 +++
 draft = false
 title = 'About'
+layout= 'about'
+avatar= '/img/me2.png/'
 +++
 
-An electrical engineer by day, a tech enthusiast and hobbyist photographer by night. This site is my digital inkwell, where I document learnings, life snippets, and fleeting thoughts.
+<!-- [<img src="https://avatars.githubusercontent.com/u/198438666?v=4" style="max-width:15%;min-width:40px;float:center;border-radius:50%;margin-left:1em;" alt="头像" />](https://github.com/grntomato) -->
 
 ## Who AM I
 
+An electrical engineer by day, a tech enthusiast and hobbyist photographer by night. This site is my digital inkwell, where I document learnings, life snippets, and fleeting thoughts.
+
+---
 <!-- [<img src="https://avatars.githubusercontent.com/u/198438666?v=4" style="max-width:15%;min-width:40px;float:right;border-radius:50%;margin-left:1em;" alt="头像" />](https://github.com/grntomato) -->
 
 一名刚入门不久的电气行业从业者，日常工作涉及电气试验、继电保护及相关通讯技术。  

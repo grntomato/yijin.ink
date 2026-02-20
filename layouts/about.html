@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<div class="article-meta about-page">
+    {{ with .Params.avatar }}
+    <div class="author-avatar">
+        <img src="{{ . }}" alt="it's {{ $.Params.author }} " class="avatar-img">
+    </div>
+    {{ end }}
+    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+    {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+    {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+</div>
+
+<main>
+    {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}

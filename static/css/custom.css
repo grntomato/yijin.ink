@@ -4,6 +4,10 @@
   color: initial;
 } */
 
+.article-meta {
+    border-radius: 8px;
+}
+
 .welcome-message {
     font-size: 1.1em;
     /* margin-top: 20px; */
@@ -25,7 +29,33 @@
 }
 
 code {
-  background: #f0f0f0;/* 将背景色改为更深的颜色，你可以根据需要调整，例如 #e0e0e0 */
-  border-radius: 4px; /* 增加圆角，值越大圆角越明显 */
-  padding: 0.2em 0.4em; /* 可选：增加内边距，让行内代码更美观 */
+  background: #fdf6e3;
+  border-radius: 4px; 
+  padding: 0.2em 0.4em;
+  color: #657b83;
+}
+
+/* About 页面样式 */
+.about-page h1 {
+    display: none;
+}
+
+.about-page.article-meta {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page.author-avatar {
+    flex-shrink: 0;
+}
+
+.avatar-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    display: block;
 }

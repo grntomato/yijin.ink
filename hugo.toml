@@ -56,4 +56,3 @@ weight = 5
       typographer = true
     [markup.goldmark.renderer]
       unsafe = true
-
