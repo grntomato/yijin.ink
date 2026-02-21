@@ -32,7 +32,7 @@ categories = ["学习录"]
 
 总示例 (含主题样式、字体样式、多种节点形状样式、链接样式等)
 
-```markdown
+```mermaid
 ---
 config:
   theme: neutral

@@ -3,14 +3,14 @@ a {
     display:inline-block;
     position:relative;
     text-decoration: none;
-    border-bottom: 1px dashed #000;
-    color: #657b83;
+    border-bottom: 1px dashed #1d1d1f;
+    color: #1d1d1f;
     transition: transform 0.1s ease;
 }
 
 a:hover {
     transform: translate(1px,1px);
-    color: darkgoldenrod; 
+    color: #111;
 }
 
 .menu a {
@@ -20,8 +20,12 @@ a:hover {
 
 footer a {
     border-bottom: none;
+    color:#657b83;
 }
 
+h1,h2,h3 {
+    color: #111111;
+}
 .article-meta {
     border-radius: 8px;
 }
@@ -34,7 +38,7 @@ footer a {
     /* font-weight: bold; */
     font-style: italic;
     letter-spacing: 0.5px;
-    color: #333;
+    color: #657b83;
     position: relative;
 }
 
@@ -50,7 +54,7 @@ code {
   background: #eee;
   border-radius: 4px; 
   padding: 0.2em 0.4em;
-  color: salmon;
+  color: darkgoldenrod;
 }
 
 /* About 页面样式 */
