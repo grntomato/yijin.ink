@@ -1,8 +1,26 @@
-/* a {
-  text-decoration: none;
-  border-bottom: 1px dashed;
-  color: initial;
-} */
+
+a {
+    display:inline-block;
+    position:relative;
+    text-decoration: none;
+    border-bottom: 1px dashed #000;
+    color: #657b83;
+    transition: transform 0.1s ease;
+}
+
+a:hover {
+    transform: translate(1px,1px);
+    color: darkgoldenrod; 
+}
+
+.menu a {
+    display: inline;
+    border-bottom: none;
+}
+
+footer a {
+    border-bottom: none;
+}
 
 .article-meta {
     border-radius: 8px;
@@ -29,10 +47,10 @@
 }
 
 code {
-  background: #fdf6e3;
+  background: #eee;
   border-radius: 4px; 
   padding: 0.2em 0.4em;
-  color: #657b83;
+  color: salmon;
 }
 
 /* About 页面样式 */
