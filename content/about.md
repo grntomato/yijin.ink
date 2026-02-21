@@ -11,15 +11,13 @@ An electrical engineer by day, a tech enthusiast and hobbyist photographer by ni
 
 ---
 
-一名刚入门不久的电气行业从业者，日常工作涉及电气试验、继电保护及相关通讯技术。  
-业余时间喜欢探索计算机世界，喜欢敲击键盘。2026年，希望能更系统地学习计算机网络知识。  
-我也喜欢摄影，喜欢自然而然、充满感情的照片。  
+一名刚入门不久的电气行业从业者，日常工作涉及电气试验、继电保护及相关通讯技术。\
+业余时间喜欢探索计算机世界，喜欢敲击键盘。2026 年，希望能更系统地学习计算机网络知识。\
+我也喜欢摄影，喜欢自然而然、充满感情的照片。\
 我并非总能投入百分之百的精力，但会始终尝试，步履不停。
 
 找到我：
-[Gitee](https://gitee.com/grntomato)
-[GitHub](https://github.com/grntomato)
-[Email](#)
+[Gitee](https://gitee.com/grntomato) | [GitHub](https://github.com/grntomato) | [Email](#)
 
 ## 关于文章
 
@@ -37,7 +35,7 @@ An electrical engineer by day, a tech enthusiast and hobbyist photographer by ni
 
 ### 主题与迭代
 
-计划逐步熟悉 [Hugo](https://gohugo.io/) 框架与 Go 模板语法，根据个人需求对样式与功能进行修改。  
+计划逐步熟悉 [Hugo](https://gohugo.io/) 框架与 Go 模板语法，根据个人需求对样式与功能进行修改。\
 [**时光留痕**](/timeline/) 页面记录着网站的成长点滴。
 
 ### 代码托管

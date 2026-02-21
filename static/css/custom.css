@@ -1,16 +1,29 @@
-
+body{
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+}
 a {
     display:inline-block;
     position:relative;
     text-decoration: none;
-    border-bottom: 1px dashed #1d1d1f;
-    color: #1d1d1f;
+    border-bottom: none;
+    color: rgb(57, 57, 210);
+    transition: transform 0.1s ease;
+
+}
+a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1.1px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #111;
     transition: transform 0.1s ease;
 }
 
 a:hover {
     transform: translate(1px,1px);
-    color: #111;
+    /* color: purple; */
 }
 
 .menu a {
@@ -20,25 +33,75 @@ a:hover {
 
 footer a {
     border-bottom: none;
-    color:#657b83;
+    /* color:#657b83; */
 }
 
-h1,h2,h3 {
-    color: #111111;
+.menu a:hover{
+    color:purple;
 }
+.menu a::after,footer a::after {
+    content: none; 
+    display: none;
+}
+
+h2 {
+    margin-top: 1.8em;
+    line-height: 1.25; 
+    margin-bottom: 0.75em
+}
+
+h3{
+    margin-top: 1.5em;
+    line-height: 1.25;
+    margin-bottom: 0.5em;
+
+}
+
 .article-meta {
-    border-radius: 8px;
+    border-radius: 5px;
+    display: block;
+    min-height: 100px;
+    padding: 0 20px;
+    line-height: 100px;
+}
+
+.article-meta h1 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    line-height: normal; 
+    vertical-align: middle; 
+}
+
+.article-meta .author:not(:empty),
+.article-meta .date:not(:empty) {
+    display: block;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+
+.article-meta:has(.author:not(:empty)) {
+    line-height: normal;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.05em;
 }
 
 .welcome-message {
     font-size: 1.1em;
-    /* margin-top: 20px; */
     margin: 2.5rem 0;
     text-align: center;
     /* font-weight: bold; */
     font-style: italic;
     letter-spacing: 0.5px;
-    color: #657b83;
+    color: #333;
     position: relative;
 }
 
@@ -54,7 +117,7 @@ code {
   background: #eee;
   border-radius: 4px; 
   padding: 0.2em 0.4em;
-  color: darkgoldenrod;
+  /* color: darkgoldenrod; */
 }
 
 /* About 页面样式 */

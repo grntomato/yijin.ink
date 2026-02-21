@@ -96,7 +96,7 @@ mermaid 内置 5 种[主题](https://mermaid.js.org/config/theming.html) (配色
 
 - [forest](https://github.com/mermaid-js/mermaid/blob/develop/packages/mermaid/src/themes/theme-forest.js) - 此主题包含绿色阴影。
 
-- [base](https://github.com/mermaid-js/mermaid/blob/develop/packages/mermaid/src/themes/theme-base.js) - **这是唯一可以修改的主题。使用此主题作为自定义的基础。且需通过 `frontmatter` 配置修改 [`themeVariables`](#themeVaribles)。**
+- [base](https://github.com/mermaid-js/mermaid/blob/develop/packages/mermaid/src/themes/theme-base.js) - **这是唯一可以修改的主题。使用此主题作为自定义的基础。且需通过 `frontmatter` 配置修改 [themeVariables](#themeVaribles)。**
 
 ```YAML
 ---
