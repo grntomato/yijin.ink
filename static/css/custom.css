@@ -1,6 +1,6 @@
-body{
+/* body{
   font-family: 'Alegreya',Palatino,Optima,Book Antiqua, Candara, Calibri, Arial, "Noto Serif SC","Source Han Serif SC", STSong, "Songti SC",SimSun,serif;
-}
+} */
 
 
 a {
@@ -8,7 +8,7 @@ a {
     position:relative;
     text-decoration: none;
     border-bottom: none;
-    color: #333;
+    color: blue;
     transition: transform 0.1s ease;
 
 }
@@ -36,7 +36,7 @@ a:hover {
 
 footer a {
     border-bottom: none;
-    color:#657b83;
+    color:blue;
 }
 
 .menu a:hover{
@@ -105,7 +105,7 @@ h3{
     /* font-weight: bold; */
     font-style: italic;
     letter-spacing: 0.5px;
-    color: #657b83;;
+    color: #333;;
     position: relative;
 }
 
@@ -130,7 +130,7 @@ code {
 
 
 blockquote {
-    font-family:'Palatino Linotype, 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti', serif;
+    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti',serif;
 
 }
 /* About 页面样式 */
