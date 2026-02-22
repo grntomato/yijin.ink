@@ -1,6 +1,6 @@
 +++
 date = '2026-02-22T20:21:24+08:00'
-draft = true
+draft = false
 title = '初六，旧识新悟 —— PATH 环境变量的存在意义'
 author = "Yijin Wang"
 tags = ['PATH环境变量', '环境变量', 'Scoop', '学习心得','个人感悟']
