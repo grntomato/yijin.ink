@@ -3,7 +3,7 @@ date = '2026-02-22T20:21:24+08:00'
 draft = false
 title = '初六，旧识新悟 —— PATH 环境变量的存在意义'
 author = "Yijin Wang"
-tags = ['PATH环境变量', '环境变量', 'Scoop', '学习心得','个人感悟']
+tags = ['PATH环境变量', '环境变量', '学习心得','个人感悟']
 categories = ['学习录']
 slug = 'path-environment-variable-epiphany'
 +++
@@ -34,4 +34,4 @@ slug = 'path-environment-variable-epiphany'
 
 果然，知识的掌握是循序渐进的，无法一次性完全认识与理解。那些曾经孤立的点，终会在某个时刻连成线。
 
-[^1]: 关于 FFmpeg，我写过相关的浅表的学习总结，仅包含一些我用过的指令，放在了我的 Halo 小站里，但现在想来先不展开了 (Halo 小站目前移动端有些问题)，想起当时想写的原因，包含对 FFmpeg 的作者 Fabrice Bellard 的尊敬和佩服。
+[^1]: 关于 FFmpeg，我写过相关的浅表的学习总结，仅包含一些我用过的指令，放在了我的 Halo 小站里，但想来先不展开了 (Halo 小站目前移动端有些问题)，想起当时想写的原因，包含对 FFmpeg 的作者 Fabrice Bellard 的尊敬和佩服。

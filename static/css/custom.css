@@ -2,11 +2,22 @@
   font-family: 'Alegreya',Palatino,Optima,Book Antiqua, Candara, Calibri, Arial, "Noto Serif SC","Source Han Serif SC", STSong, "Songti SC",SimSun,serif;
 } */
 
-/* body {
-    font-family: 'Alegreya', Palatino, Book Antiqua, Candara, Calibri, Arial, "Noto Serif SC", "Source Han Serif SC", STSong, "Songti SC", SimSun, serif;
+body {
+    font-family: 'Alegreya', Palatino, Book Antiqua, Candara, Calibri, Arial, "Songti SC", SimSun, serif;
     line-height: 1.75;
-} */
+    /* color: #1e1e1e; */
+}
 
+
+main a {
+    display:inline-block;
+    position:relative;
+    text-decoration: none;
+    border-bottom: none;
+    color: rgb(0,0,235);
+    transition: transform 0.1s ease;
+
+}
 
 a {
     display:inline-block;
@@ -17,18 +28,23 @@ a {
     transition: transform 0.1s ease;
 
 }
-a::after {
+
+a:hover, footer a:hover {
+    transform: translate(1px,1px);
+}
+
+main a::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 3px;
+    bottom: 4px;
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #111;
     transition: transform 0.1s ease;
 }
 
-a:hover {
+main a:hover {
     transform: translate(1px,1px);
     /* color: purple; */
 }
@@ -107,6 +123,7 @@ h3{
     font-size: 1.1em;
     margin: 2.5rem 0;
     text-align: center;
+    font-family: 'Alegreya', Book Antiqua,Optima, Candara, Calibri, Arial, "Songti SC", SimSun, serif;
     /* font-weight: bold; */
     font-style: italic;
     letter-spacing: 0.5px;
@@ -125,6 +142,7 @@ h3{
 code {
     font-family: Consolas, Courier, 'Lucida Console', 'Courier New', 'Kai TC', monospace,Monaco, monospace,'KaiTi', 'STKaiti', serif;
     font-size: 85%;
+    color:#111;
 }
 
 code {
@@ -136,7 +154,6 @@ code {
 
 blockquote {
     font-family:'Palatino Linotype', 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti',serif;
-
 }
 /* About 页面样式 */
 .about-page h1 {

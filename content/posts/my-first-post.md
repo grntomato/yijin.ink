@@ -1,10 +1,11 @@
 +++
 date = '2026-01-31T22:03:31+08:00'
 draft = false
-title = '我的第一篇 HUGO 文章'
+title = '重启一章'
 author = 'Yijin Wang'
 categories = ['随笔集']
 tags = ['个人感悟']
+slug = 'restart-a-new-chapter'
 +++
 
 最近偶然翻看我在 Halo 搭建的小站，想再捣鼓一下，却发现困难重重 —— 之前我杂七杂八学过的代码语言，竟几乎都忘了。Halo 小站里，我的友链一直只有两个，一个是我在用模版的开发者，一位学生：皓子 ([皓子的小站](https://howiehz.top/)) ，另外一个就是 谢益辉 ([Yihui Xie](https://yihui.org/) ) 。每次点进益辉兄的博客，多少能找到与他类似的一群人：非计算机专业，但热爱代码，活跃于开源社区，也坚守在博客世界里。
