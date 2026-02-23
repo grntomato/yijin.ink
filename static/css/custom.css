@@ -5,8 +5,8 @@
 body {
     font-family: 'Alegreya', Palatino, Book Antiqua, Candara, Calibri, Arial, "Songti SC", SimSun, serif;
     line-height: 1.75;
-    background-color: #f9f9f6;
-    /* color: #1e1e1e; */
+    /* background-color: #fffffd; */
+    color: #1f0909;
 }
 
 
@@ -15,7 +15,7 @@ main a {
     position:relative;
     text-decoration: none;
     border-bottom: none;
-    color: #065588;
+    color: rgb(0, 0, 0);
     transition: transform 0.1s ease;
 
 }
@@ -25,13 +25,20 @@ a {
     position:relative;
     text-decoration: none;
     border-bottom: none;
-    color: #065588;
+    color: #353035;
     transition: transform 0.1s ease;
 
 }
 
-a:hover, footer a:hover {
+a:hover {
     transform: translate(1px,1px);
+    color:#657b83;
+}
+
+footer a:hover {
+    transform: translate(1px,1px);
+    /* color:#065588; */
+    color:goldenrod;
 }
 
 main a::after {
@@ -53,16 +60,17 @@ main a:hover {
 .menu a {
     display: inline;
     border-bottom: none;
+    /* color:#657b83; */
     /* font-weight: bold; */
 }
 
 footer a {
     border-bottom: none;
-    color:#065588;
+    color:#657b83;
 }
 
 .menu a:hover{
-    color:purple;
+    color: #657b83;
 }
 .menu a::after,footer a::after {
     content: none; 
@@ -72,7 +80,8 @@ footer a {
 h2 {
     margin-top: 1.8em;
     line-height: 1.25; 
-    margin-bottom: 0.75em
+    margin-bottom: 0.75em;
+    padding-bottom: 5px;
 }
 
 h3{
@@ -88,7 +97,6 @@ h3{
     min-height: 100px;
     padding: 0 20px;
     line-height: 100px;
-    
 }
 
 .article-meta h1 {
@@ -128,9 +136,12 @@ h3{
     /* font-weight: bold; */
     font-style: italic;
     letter-spacing: 0.5px;
-    color: #333;;
+    color: #333;
+    /* text-shadow: rgb(85, 92, 110) 2px 2px 3px; */
     position: relative;
 }
+
+
 
 .avatar {
     border-radius: 50%;
@@ -148,13 +159,16 @@ code {
 
 code {
   background: #eee;
-  border-radius: 4px; 
+  border-radius: 50px; 
   padding: 0.2em 0.4em;
+  color:#111;
 }
 
-
 blockquote {
-    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti',serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti',serif;
+    background: #f9f9f9;
+    color: #656565;
+    /* font-style: italic; */
 }
 /* About 页面样式 */
 .about-page h1 {
