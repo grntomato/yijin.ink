@@ -16,8 +16,9 @@ An electrical engineer by day, a tech enthusiast and hobbyist photographer by ni
 我也喜欢摄影，喜欢自然而然、充满感情的照片。\
 我并非总能投入百分之百的精力，但会始终尝试，步履不停。
 
-找到我：
-[Gitee](https://gitee.com/grntomato) | [GitHub](https://github.com/grntomato) | [Email](#)
+找到我： <a href="https://gitee.com/grntomato"> <i class="fa-brands fa-gitee"></i></a> | <a href="https://github.com/grntomato"><i class="fa-brands fa-github-alt"></i></a> | <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+<!-- [Gitee](https://gitee.com/grntomato) | [GitHub](https://github.com/grntomato) | [Email](#) -->
 
 ## 关于文章
 
