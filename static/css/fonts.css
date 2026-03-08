@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'subset-light';
+    src: url('/fonts/syst-light.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'subset-bold';
+    src: url('/fonts/syst-bold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'subset-semibold';
+    src: url('/fonts/syst-semibold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'welcome-message';
+    src:url('/fonts/welcome_message.woff2') format('woff2')
+}
+body{
+    font-family:Palatino,Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-light', "Songti SC", SimSun, serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    /* word-spacing: 0.2em; */
+}
+
+b, strong {
+    font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-semibold', "Songti SC", SimSun, serif;
+}
+
+.title {
+    font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-bold', "Songti SC", SimSun, serif;
+}
+
+h1,h2 {
+     font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-bold', "Songti SC", SimSun, serif;
+}
+
+h3 {
+     font-family: Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-semibold', "Songti SC", SimSun, serif;
+}

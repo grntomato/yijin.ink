@@ -40,7 +40,7 @@ url = "timeline/"
 weight = 6
 
 [[menu.main]]
-name = "订阅"
+name = "RSS"
 url = "index.xml"
 weight = 5
 
@@ -56,3 +56,6 @@ weight = 5
       typographer = true
     [markup.goldmark.renderer]
       unsafe = true
+
+[minify]
+  disableHTML = true
