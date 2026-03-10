@@ -227,9 +227,10 @@ blockquote {
 @media (max-width: 768px) {
     .menu {
         margin-top: 0.1rem; 
-        font-size: 14px;
+        font-size: 0.9em;
         justify-content: flex-end;
         flex-wrap: wrap; 
+        margin-bottom: -1.2em;
     }
 
     .welcome-message {
