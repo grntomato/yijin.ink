@@ -8,10 +8,22 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 700px; */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+}
 /* <main>文章内容样式 */
-main p {
-    text-align: justify;
-    color:#353035;  
+main {
+    /* text-align: justify; */
+    color:#202028; 
+}
+
+b, strong {
+    font-weight:600;
 }
 
 main a {
@@ -19,11 +31,10 @@ main a {
     position:relative;
     text-decoration: none;
     border-bottom: none;
-    color: #657b83;
+    color:darkblue;
     transition: transform 0.1s ease;
 
 }
-
 
 /* 超链接样式 */
 a {
@@ -38,23 +49,23 @@ a {
 
 a:hover {
     transform: translate(1px,1px);
-    color:#657b83;
+    color:darkblue;
 }
 
 main a:hover {
     transform: translate(1px,1px);
-    color:goldenrod;
+    color:darkgoldenrod;
 }
+
 
 footer a {
     border-bottom: none;
-    color:#657b83;
+    color:darkblue;
 }
 
 footer a:hover {
     transform: translate(1px,1px);
-    /* color:#065588; */
-    color:goldenrod;
+    color:darkgoldenrod;
 }
 
 main a::after {
@@ -73,15 +84,27 @@ main a:hover {
 }
 
 /* 导航栏 */
-.menu a {
-    display: inline;
-    border-bottom: none;
-    /* background: none; */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-bottom: -15px;
+    font-size: 0.95em;
 }
 
-.menu a:hover{
-    color: #657b83;
+.menu a {
+    display: inline-block;
+    border-bottom: none;
+    background: none;
 }
+
+.menu a:hover {
+    color: #353035;
+    opacity: 100%;
+    transform: translate(1px,1px);
+}
+
 .menu a::after,footer a::after {
     content: none; 
     display: none;

@@ -4,6 +4,12 @@
     font-display: swap;
 }
 
+/* @font-face {
+    font-family: 'subset-regular';
+    src: url('/fonts/syst-regular.woff2') format('woff2');
+    font-display: swap;
+} */
+
 @font-face {
     font-family: 'subset-bold';
     src: url('/fonts/syst-bold.woff2') format('woff2');
@@ -22,9 +28,7 @@
 }
 body{
     font-family:Palatino,Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'subset-light', "Songti SC", SimSun, serif;
-    font-size: 16px;
-    line-height: 1.8em;
-    /* word-spacing: 0.2em; */
+    word-spacing: 0.1em;
 }
 
 b, strong {
