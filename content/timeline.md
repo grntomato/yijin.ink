@@ -53,4 +53,4 @@ title = 'Timeline'
 
 ### 01/31
 
-- 2026 年 1 月 31 日晚，应用益辉兄的 [hugo-xmin](https://github.com/yihui/hugo-xmin) 主题重新开启 Hogo，写下饱含真情的契机，详见[我的第一篇 HUGO 文章](http://yijin.ink/posts/my-first-post/)
+- 2026 年 1 月 31 日晚，应用益辉兄的 [hugo-xmin](https://github.com/yihui/hugo-xmin) 主题重新开启 Hogo，写下饱含真情的契机，详见[重启一章](http://yijin.ink/posts/restart-a-new-chapter/)
