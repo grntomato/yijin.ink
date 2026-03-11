@@ -17,9 +17,9 @@ body{
     line-height: 1.8em;
 }
 /* <main>文章内容样式 */
-main {
+main p ul{
     /* text-align: justify; */
-    color:#222; 
+    color:#2b2b2b; 
 }
 
 b, strong {
@@ -146,7 +146,14 @@ h3{
     vertical-align: middle;
 }
 
-.article-meta .author:not(:empty),
+.article-meta .author:not(:empty) {
+    display: block;
+    line-height: 1.3;
+    margin-top:0.4em;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
 .article-meta .date:not(:empty) {
     display: block;
     line-height: 1.3;
@@ -171,7 +178,7 @@ h3{
     font-size: 1.7em;
     margin: 5rem 0;
     text-align: center;
-    font-family: 'welcome-message','Alegreya', Book Antiqua,Optima, Candara, Calibri, Arial, "Songti SC", SimSun, serif;
+    font-family: 'welcome-message',Book Antiqua,  Optima, Candara, Calibri, Arial, "Songti SC", SimSun, serif;
     font-style: italic;
     letter-spacing: 0.5px;
     color: #333;
@@ -227,7 +234,7 @@ blockquote {
 @media (max-width: 768px) {
     .menu {
         margin-top: 0.1rem; 
-        font-size: 0.9em;
+        font-size: 15px;
         justify-content: flex-end;
         flex-wrap: wrap; 
         margin-bottom: -1.2em;
@@ -235,10 +242,26 @@ blockquote {
 
     .welcome-message {
         margin: 2.5rem 0; 
-        font-size: clamp(1.2em, 6vw, 1.5em);
+        font-size: clamp(1rem, 3vw + 0.8rem, 2.5em);
+        text-align: center;
     }
 
     .article-meta {
         font-size: 0.9em;
     }
+}
+
+/* Ruby 注释添加终端样式 */
+ruby rt {
+    font-family: 'Courier New', Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 0.6em; 
+    color: #98a3a4; 
+    background-color: #000000;
+    /* 或者尝试浅青色：color: #5dade2; */
+}
+
+ruby rt i {
+    color: #2ecc71;
+    font-style: normal; 
+    font-weight: bold;
 }
