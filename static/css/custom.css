@@ -254,10 +254,10 @@ blockquote {
 /* Ruby 注释添加终端样式 */
 ruby rt {
     font-family: 'Courier New', Consolas, Monaco, 'Andale Mono', monospace;
-    font-size: 0.6em; 
+    /* font-size: 0.5em;  */
     color: #98a3a4; 
-    background-color: #000000;
-    /* 或者尝试浅青色：color: #5dade2; */
+    background-color: #1e1e1e;
+    margin-bottom: 0.01em;
 }
 
 ruby rt i {
