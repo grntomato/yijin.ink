@@ -6,7 +6,7 @@ avatar= "https://foruda.gitee.com/avatar/1771317180531746037/16655034_grntomato_
 +++
 
 <h2><ruby>关于我<rt><i>~</i>$ whoami</rt></ruby></h2>
-An electrical engineer by day, a tech enthusiast and hobbyist photographer by night. This site is my digital inkwell, where I document learnings, life snippets, and fleeting thoughts.
+<p class=terminal-style>An electrical engineer by day, a tech enthusiast and hobbyist photographer by night. This site is my digital inkwell, where I document learnings, life snippets, and fleeting thoughts.</p>
 
 ---
 
