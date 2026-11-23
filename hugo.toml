@@ -56,6 +56,9 @@ weight = 5
       typographer = true
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+  style = "github"
+  noClasses = true
 
 [minify]
   disableHTML = true
