@@ -14,6 +14,10 @@ title = 'Timeline'
 
 ## 2026
 
+### 11/25
+
+- 重新设置字体加载方式，尝试使用[在线字体分包器](https://chinese-font.netlify.app/zh-cn/online-split/)加载字体。
+
 ### 03/10
 
 - 更改导航栏为右侧 (test)
