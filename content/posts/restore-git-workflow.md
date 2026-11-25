@@ -12,7 +12,7 @@ slug = 'restore-git-workflow'
 
 由于近期都在用另一个电脑，导致更文就必须重新拉回我的小站代码到本地..... 清除这些障碍，让自己重新记录吧 (ᗒᗣᗕ)՞ ⚔
 
-> 此文记录我的 Git 工作流恢复过程，首先问询了 `ChatGPT` ，同时阅览了 `Git` 、`Github` 的 docs 来确认及加深印象。遇到无法理解的部分，我会标识，以及认为自己还需理解、描述不清的地方会以” 引用 “的方式将 `ChatGPT` 的说明贴入，方便日后理解。其余均个人复述、总结，加深记忆。
+> 此文记录我的 Git 工作流恢复过程，首先问询了 ChatGPT，同时阅览了 Git、Github 的 docs 来确认及加深印象。遇到无法理解的部分，我会标识，以及认为自己还需理解、描述不清的地方会以” 引用 “的方式将 ChatGPT 的说明贴入，方便日后理解。其余均个人复述、总结，加深记忆。
 
 ## 一、重新认识我的小站
 
@@ -22,7 +22,7 @@ slug = 'restore-git-workflow'
 
 AI 和我确认 `user.name`  `user.email` 确实是 Git 的配置，那这条路没错咯 (❁´◡\`❁)
 
-建这个小站的时候，我还不会梯子，我一直用的微软的 `steam++` 来浏览 Github，但它无法正常通过 HTTPS (443 端口) 和 SSH (22 端口) 连接 GitHub，因此我选择先将本地代码 push 到 Gitee 仓库，再通过 Gitee 的自动镜像服务同步到我的 Github 仓库中，最后由 Cloudflare 从 Github 仓库中拉取代码并构建网站。
+建这个小站的时候，我还不会梯子，我一直用的微软的 steam++ 来浏览 Github，但它无法正常通过 HTTPS (443 端口) 和 SSH (22 端口) 连接 GitHub，因此我选择先将本地代码 push 到 Gitee 仓库，再通过 Gitee 的自动镜像服务同步到我的 Github 仓库中，最后由 Cloudflare 从 Github 仓库中拉取代码并构建网站。
 
 ### 1.2 这次需要恢复什么
 
@@ -38,9 +38,9 @@ AI 和我确认 `user.name`  `user.email` 确实是 Git 的配置，那这条路
 
 ### 2.1 更新 Git 版本 / 安装 Git
 
-我是通过 `scoop` 管理的 git 版本，所以先一键更新：`scoop update git`
+我是通过 scoop 管理的 git 版本，所以先一键更新：`scoop update git`
 
-如果还未安装 git，可以选择各种包管理工具安装，如 `scoop` 、`winget`、`chocolatey` ，或者直接去 git 官网安装。
+如果还未安装 git，可以选择各种包管理工具安装，如 scoop、winget、chocolatey ，或者直接去 git 官网安装。
 
 安装后， `git --version` ，返回版本号即安装成功 (・̀ᴗ・́)و
 
@@ -76,7 +76,7 @@ git config --global user.name "Yijin"
 
 可查看设置好的 **Git 全局配置文件**：`git config --global --edit`，确认之前的配置：
 
-Git bash 自动进入 `vim`，关于 `vim` 退出时的用法：
+Git bash 自动进入 vim ，关于 vim 退出时的用法：
 
 `:q` 退出 (没有修改时)
 
@@ -98,11 +98,11 @@ Git bash 自动进入 `vim`，关于 `vim` 退出时的用法：
 
 `ssh-keygen -t ed25519 -C "Yijin-Thinkpad-E14"`，生成 2 个文件，一个私钥文件 `id_ed25519`，一个公钥文件 `id_ed25519.pub`
 
-`keygen` 为 `Key Generator` (密钥生成器) 的缩写。
+`keygen` 为 Key Generator (密钥生成器) 的缩写。
 
-`-t` 为 `type` ，用于指定密钥算法。
+`-t` 为 type，用于指定密钥算法。
 
-`-C` 为 `comment` ，对生成的 SSH 密钥附加一段注释、说明。所以我把当前电脑的型号作为注释，方便日后还能认得这个密钥是哪个设备的。
+`-C` 为 comment，对生成的 SSH 密钥附加一段注释、说明。所以我把当前电脑的型号作为注释，方便日后还能认得这个密钥是哪个设备的。
 
 私钥文件自己保留，不可随意分享，公钥文件则添加给要连接的平台，比如 Github 或者 Gitee。`-C` 添加的注释会以明文形式显示在 SSH 公钥文件末尾，方便我们识别密钥属于哪台设备。同时，注释也会保存在私钥文件的内部格式中；如果设置了 Passphrase，私钥文件中的相关数据会受到加密保护。
 
@@ -163,7 +163,7 @@ alias ssh-add='/c/Windows/System32/OpenSSH/ssh-add.exe'
 
 由于之前这个的时候，我还未有机会使用代理，所以我是先 push 到 Gitee 的仓库，然后利用 Gitee 的自动镜像服务镜像到我的 Github 仓库。所以我还需要使用 SSH 协议连接到 Gitee。
 
-`clip < ~/.ssh/id_ed25519.pub` 复制公钥内容至 Windows 剪贴板，并添加到 Github 的 SSH Keys (如果使用的 Gitee，即 SSH 公钥) 中。选择 `New SSH key` (Gitee 是 点击 SSH 公钥就显示了添加公钥界面)
+`clip < ~/.ssh/id_ed25519.pub` 复制公钥内容至 Windows 剪贴板，并添加到 Github 的 SSH Keys (如果使用的 Gitee，即 SSH 公钥) 中。选择 New SSH key (Gitee 是 点击 SSH 公钥就显示了添加公钥界面)
 
 ### 3.5 测试 SSH 连接至 Github / Gitee
 
