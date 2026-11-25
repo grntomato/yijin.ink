@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+<ul>
+  {{ $pages := .Pages }}
+  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+  {{ range (where $pages "Section" "!=" "") }}
+    <li>
+    {{ $date := .Date }}
+    {{ if and (eq $.Kind "taxonomy") (eq $.Data.Plural "categories") }}
+      {{ range first 1 .RegularPages.ByDate.Reverse }}
+        {{ $date = .Date }}
+      {{ end }}
+    {{ end }}
+    {{ if not $date.IsZero }}
+      <span class="date">{{ $date.Format "2006/01/02" }}</span>
+    {{ end }}
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

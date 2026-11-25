@@ -1,7 +1,7 @@
 ::selection {
-    background-color: #f9dfd5;
+    background-color: #cee5c2;
     /* color:#a3d8ff; #daffa3;*/
-    color:#002851;
+    color:#424847;
 }
 
 * {
@@ -11,15 +11,21 @@
 body{
     display: flex;
     flex-direction: column;
-    /* max-width: 700px; */
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8em;
 }
+
 /* <main>文章内容样式 */
-main p ul{
-    /* text-align: justify; */
-    color:#2b2b2b; 
+main {
+    width:100%;
+    /* max-width: 680px; */
+    margin-inline: auto
+}
+
+main p,
+main ul {
+    color: #2b2b2b;
 }
 
 b, strong {
@@ -27,6 +33,24 @@ b, strong {
 }
 
 main a {
+    display: inline;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    border-bottom: 1px dashed currentColor;
+    color: darkblue;
+    overflow-wrap: anywhere;
+}
+
+main a:hover {
+    top: 1px;
+    left: 1px;
+    transform: none;
+    color:darkgoldenrod;
+}
+
+/* main a {
     display:inline-block;
     position:relative;
     text-decoration: none;
@@ -34,7 +58,7 @@ main a {
     color:darkblue;
     transition: transform 0.1s ease;
 
-}
+} */
 
 /* 超链接样式 */
 a {
@@ -52,10 +76,10 @@ a:hover {
     color:darkblue;
 }
 
-main a:hover {
+/* main a:hover {
     transform: translate(1px,1px);
     color:darkgoldenrod;
-}
+} */
 
 footer {
     font-size: 0.9em;
@@ -70,7 +94,7 @@ footer a:hover {
     color:darkgoldenrod;
 }
 
-main a::after {
+/* main a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -79,11 +103,11 @@ main a::after {
     height: 1px;
     border-bottom: 1px dashed #111;
     transition: transform 0.1s ease;
-}
+} */
 
-main a:hover {
+/* main a:hover {
     transform: translate(1px,1px);
-}
+} */
 
 /* 导航栏 */
 
@@ -205,6 +229,11 @@ pre code {
   border-radius: 0;
 }
 
+:not(pre) > code {
+    position: relative;
+    top: -0.1em;
+}
+
 blockquote {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'KaiTi', 'STKaiti',serif;
     background: #f9f9f9;
@@ -270,4 +299,94 @@ ruby rt i {
     color: #2ecc71;
     font-style: normal; 
     font-weight: bold;
+}
+
+
+
+/* 文章目录：默认用于手机及较窄窗口 */
+.article-layout {
+    position: relative;
+    width: 100%;
+}
+
+.article-layout > main {
+    min-width: 0;
+}
+
+.toc-desktop {
+    display: none;
+}
+
+.toc-mobile {
+    margin: 1.5em 0;
+    padding: 0.6em 0;
+    border-block: 1px solid #ddd;
+}
+
+.toc-mobile summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* 目录的文字与层级 */
+.toc-title {
+    margin: 0 0 0.6em;
+    font-weight: 600;
+}
+
+.toc-desktop ul,
+.toc-mobile ul {
+    list-style: none;
+    padding-left: 1em;
+    margin: 0.3em 0;
+    border-left: 1px solid #ddd;
+}
+
+.toc-desktop a,
+.toc-mobile a {
+    display: block;
+    position: static;
+    border: none;
+    text-decoration: none;
+    color: #555;
+    line-height: 1.6;
+    padding: 0.2em 0;
+    overflow-wrap: anywhere;
+    transition: none;
+}
+
+.toc-desktop a:hover,
+.toc-mobile a:hover {
+    color: #111;
+    transform: none;
+    text-decoration: underline;
+}
+
+.toc-desktop a::after,
+.toc-mobile a::after {
+    content: none;
+}
+
+/* 宽屏：目录放在正文右侧的留白中 */
+@media (min-width: 1280px) {
+    .toc-mobile {
+        display: none;
+    }
+
+    .toc-desktop {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: calc(100% + 32px);
+        width: 180px;
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .toc-inner {
+        position: sticky;
+        top: 24px;
+        max-height: calc(100vh - 48px);
+        overflow-y: auto;
+    }
 }

@@ -61,7 +61,9 @@ git config --global user.email "xxx@example.com"
 
 关于 `git-config` 的用法：
 
-1. [Git - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)  2.  [Git - git-config Documentation](https://git-scm.com/docs/git-config) 3.  输入 `git help config` 可以打开 git config 帮助文档。
+1. [Git - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+2. [Git - git-config Documentation](https://git-scm.com/docs/git-config)
+3. 输入 `git help config` 可以打开 git config 帮助文档。
 
 ```
 # 指令解释图
@@ -90,7 +92,8 @@ Git bash 自动进入 vim ，关于 vim 退出时的用法：
 
 ## 三、恢复 SSH 连接
 
-这里可以直接参考 GitHub docs 中直接给出的步骤与解释： [Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+这里可以直接参考 GitHub docs 中直接给出的步骤与解释：
+[Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 ### 3.1 给电脑生成一个专门的 SSH 密钥对
 
