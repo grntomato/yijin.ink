@@ -21,22 +21,22 @@
     src:url('/fonts/welcome_message.woff2') format('woff2')
 }
 body{
-    font-family:Palatino,Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC Light', "Songti SC", SimSun, serif;
+    font-family:Palatino,Palatino Linotype, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC Light', "Songti SC", SimSun, serif;
     word-spacing: 0.1em;
 }
 
 b, strong {
-    font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC SemiBold', "Songti SC", SimSun, serif;
+    font-family:Palatino, Palatino Linotype, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC SemiBold', "Songti SC", SimSun, serif;
 }
 
 .title {
-    font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC', "Songti SC", SimSun, serif;
+    font-family:Palatino, Palatino Linotype, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC', "Songti SC", SimSun, serif;
 }
 
 h1,h2 {
-     font-family:Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC', "Songti SC", SimSun, serif;
+     font-family:Palatino, Palatino Linotype, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC', "Songti SC", SimSun, serif;
 }
 
 h3 {
-     font-family: Palatino, Palatistaticno, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC SemiBold', "Songti SC", SimSun, serif;
+     font-family: Palatino, Palatino Linotype, Book Antiqua, Candara, Calibri, Arial, 'Source Han Serif SC SemiBold', "Songti SC", SimSun, serif;
 }
